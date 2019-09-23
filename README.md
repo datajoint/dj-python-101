@@ -1,8 +1,8 @@
-# dj-python-101
-Reference tutorial notebooks for DataJoint (under active development - October 2019)
+(under active development - October 2019)
+
 # DataJoint-Python 101
 
-Welcome. These reference tutorial notebooks present all basic concepts for working with DataJoint in Python.
+Welcome. These reference tutorial notebooks present all basic concepts for working with [DataJoint in Python](https://github.com/datajoint/datajoint-python)
 
 DataJoint is a tool for managing shared computational workflows with scientific data.
 
