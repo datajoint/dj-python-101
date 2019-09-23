@@ -11,12 +11,12 @@ This tutorial assumes intermediate programming proficiency in Python.
 # Contents
 
 ### 0. Setup 
-| | | | |
+|Link|Topic|Link|Topic|
 |:--|:--|:--|:--|
 | **Connect** | install datajoint, configure database connection, `dj.config`, authentication, change password, save configuration, secure connection | **Admin** | configure database server, create user accounts, user privileges
 
 ### 1. Work with One Table
-| | | | |
+|Link|Topic|Link|Topic|
 |:--|:--|:--|:--|
 |**Schema** | use `dj.schema` to create a new database schema or to connect to an existing one    | **Define** |  table class, simple attributes types, primary and secondary attributes, `describe` and `drop`.
 |**Insert** | `insert`, `insert1`, `delete`, and `delete_quick`|**Fetch**| `fetch`, `fetch1`, `head`, `tail`, `len`.
@@ -30,7 +30,7 @@ This tutorial assumes intermediate programming proficiency in Python.
 | **Log** | using `schema.log`
 
 ### 2. Work with Multiple Tables
-| | | | |
+|Link|Topic|Link|Topic|
 |:--|:--|:--|:--|
 | **Modules** | correspondence between schemas and modules | **Dependencies** |  primary and secondary dependencies, referential constraints, cascading deletes 
 | **Existing** | find and connect to existing schemas: `dj.list_schemas`, `schema.spawn_missing_classes`, `dj.create_virtual_modules` | **Diagrams** | `dj.Diagram`, graph algebra, multi-schema databases |
@@ -39,24 +39,30 @@ This tutorial assumes intermediate programming proficiency in Python.
 | **DerivedDependencies** | using the `proj` operator in dependencies | **UniqueDependencies** | unique and nullable dependencies
 
 ### 3. Data modeling
+|Link|Topic|Link|Topic|
 |:--|:--|:--|:--|
 | **Hierarchy** | modeling hierarchical or nested data | **Dimensional** |  modeling dimensional relationships
 | **Master-Part** | modeling master-part relationships | **Specialization** | modeling specialization relationships |
 | **Association** | modeling associations between entities, including groups | **Cyclic** | modeling cyclic relationships | 
 
 ### 4. Computation
-| | | | |
+|Link|Topic|Link|Topic|
 |:--|:--|:--|:--|
 | **Populate** | the `populate` method and the `make` callback in `dj.Imported` and `dj.Computed` tables | **Distributed** | using `populate` with `reserve_jobs=True` 
 | **Jobs** | working with `schema.jobs` and `dj.kill` | **Compute-Parts** | computations in a master-part relationship
 | **Params** | computation parameters and computation versioning | **KeySource** | controlling the scope and granularity of computing jobs with `key_source`
+| **GitHash** | marking computations with a git tag
 | **Offline** | work with no database connection
 
-### 5. Interfaces & Applications
-| | | | |
+### 5. Data Sharing and Migration
+|Link|Topic|Link|Topic|
 |:--|:--|:--|:--|
-| **Export** | exporting data for dataset sharing | **WebGUI** | web interfaces
-| **Slack** | Slack integration 
+| **Export** | exporting data for dataset sharing
 
-### 6. Questions
+### 6. Interfaces & Applications
+|Link|Topic|Link|Topic|
+|:--|:--|:--|:--|
+| **WebGUI** | web interfaces | **Slack** | Slack integration 
+
+### 7. Questions
 
