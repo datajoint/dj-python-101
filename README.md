@@ -1,5 +1,10 @@
 (under active development - October 2019)
 
+# License 
+Copyright, DataJoint Contributors, 2019
+
+The contents of this repository can be shared and adapted under the terms of the Creative Commons Attribution-ShareAlike License Version 4.0[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
 # DataJoint-Python 101
 
 Welcome. These reference tutorial notebooks present all basic concepts for working with [DataJoint in Python](https://github.com/datajoint/datajoint-python)
