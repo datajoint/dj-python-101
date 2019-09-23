@@ -39,6 +39,7 @@ This tutorial assumes intermediate programming proficiency in Python.
 | **DerivedDependencies** | using the `proj` operator in dependencies | **UniqueDependencies** | unique and nullable dependencies
 
 ### 3. Data modeling
+|:--|:--|:--|:--|
 | **Hierarchy** | modeling hierarchical or nested data | **Dimensional** |  modeling dimensional relationships
 | **Master-Part** | modeling master-part relationships | **Specialization** | modeling specialization relationships |
 | **Association** | modeling associations between entities, including groups | **Cyclic** | modeling cyclic relationships | 
