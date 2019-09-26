@@ -23,25 +23,25 @@ This tutorial assumes intermediate programming proficiency in Python.
 ### 1. Work with One Table
 |Link|Topic|Link|Topic|
 |:--|:--|:--|:--|
-|**Schema** | use `dj.schema` to create a new database schema or to connect to an existing one    | **Define** |  table class, simple attributes types, primary and secondary attributes, `describe` and `drop`.
-|**Insert** | `insert`, `insert1`, `delete`, and `delete_quick`|**Fetch**| `fetch`, `fetch1`, `head`, `tail`, `len`.
+|**Schema**| use `dj.schema` to create a new database schema or to connect to an existing one    | **Define** |  table class, simple attributes types, primary and secondary attributes, `describe` and `drop`.
+|**Insert**| `insert`, `insert1`, `delete`, and `delete_quick`|**Fetch**| `fetch`, `fetch1`, `head`, `tail`, `len`.
 |**Update**| when to use `update`
-| **Restrict** | Query operators `&` and `-`. Restricted `delete`. |**Proj** | Query operator `proj`
-| **UUIDs** | work with `UUID` attributes | **Blobs** | storing complex data
-| **Attach** | storing files  | **Lookup** | work with lookup tables |
-| **Stores** | storing blobs and files in external filesystems and AWS S3 | **Filepath** | tracking files in an external repository
-| **Adapters** | user-defined attribute types | **Alter** | Altering table definitions with `alter`
-| **Indexes** | additional indexes | **Transactions** | defining atomic transactions
-| **Log** | using `schema.log`
+|**Restrict**| Query operators `&` and `-`. Restricted `delete`. |**Proj** | Query operator `proj`
+|**UUIDs**| work with `UUID` attributes | **Blobs** | storing complex data
+|**Attach**| storing files  | **Lookup** | work with lookup tables |
+|**Stores**| storing blobs and files in external filesystems and AWS S3 | **Filepath** | tracking files in an external repository
+|**Adapters**| user-defined attribute types | **Alter** | Altering table definitions with `alter`
+|**Index**| additional indexes | **Transactions** | defining atomic transactions
+|**Log**| using `schema.log`
 
 ### 2. Work with Multiple Tables
 |Link|Topic|Link|Topic|
 |:--|:--|:--|:--|
-| **Modules** | correspondence between schemas and modules | **Dependencies** |  primary and secondary dependencies, referential constraints, cascading deletes 
-| **Existing** | find and connect to existing schemas: `dj.list_schemas`, `schema.spawn_missing_classes`, `dj.create_virtual_modules` | **Diagrams** | `dj.Diagram`, graph algebra, multi-schema databases |
-| **Join** | query operator `*`, restricting `&` with a query, using `proj` to control join | **Aggregate**| query operator `.aggr`
-| **U** | Using universal sets `dj.U` in restrictions, aggregations, and joins. | **Union** query operator `+`.
-| **DerivedDependencies** | using the `proj` operator in dependencies | **UniqueDependencies** | unique and nullable dependencies
+|**Modules**|  correspondence between schemas and modules | **Dependencies** |  primary and secondary dependencies, referential constraints, cascading deletes 
+|**Existing**| find and connect to existing schemas: `dj.list_schemas`, `schema.spawn_missing_classes`, `dj.create_virtual_modules` | **Diagrams** | `dj.Diagram`, graph algebra, multi-schema databases |
+|**Join**| query operator `*`, restricting `&` with a query, using `proj` to control join | **Aggregate**| query operator `.aggr`
+|**U**| Using universal sets `dj.U` in restrictions, aggregations, and joins. | **Union** query operator `+`.
+|**DerivedDependencies**| using the `proj` operator in dependencies | **UniqueDependencies** | unique and nullable dependencies
 
 ### 3. Data modeling
 |Link|Topic|Link|Topic|
