@@ -23,7 +23,7 @@ This tutorial assumes intermediate programming proficiency in Python.
 ### 1. Work with One Table
 |Link|Topic|Link|Topic|
 |:--|:--|:--|:--|
-|**Schema**| use `dj.schema` to create a new database schema or to connect to an existing one    | **Define** |  table class, simple attributes types, primary and secondary attributes, `describe` and `drop`.
+|[**Schema**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Schema.ipynb)| use `dj.schema` to create a new database schema or to connect to an existing one    | **Define** |  table class, simple attributes types, primary and secondary attributes, `describe` and `drop`.
 |**Insert**| `insert`, `insert1`, `delete`, and `delete_quick`|**Fetch**| `fetch`, `fetch1`, `head`, `tail`, `len`.
 |**Update**| when to use `update`
 |**Restrict**| Query operators `&` and `-`. Restricted `delete`. |**Proj** | Query operator `proj`
