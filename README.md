@@ -27,11 +27,11 @@ This tutorial assumes intermediate programming proficiency in Python.
 |**Insert**| `insert`, `insert1`, `delete`, and `delete_quick`|**Fetch**| `fetch`, `fetch1`, `head`, `tail`, `len`.
 |**Update**| when to use `update`
 |**Restrict**| Query operators `&` and `-`. Restricted `delete`. |**Proj** | Query operator `proj`
-|**UUIDs**| work with `UUID` attributes | **Blobs** | storing complex data
-|**Attach**| storing files  | **Lookup** | work with lookup tables |
+|[**UUIDs**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/UUID.ipynb)| work with `UUID` attributes | **Blobs** | storing complex data
+|[**Attach**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Attach.ipynb)| storing files  | **Lookup** | work with lookup tables |
 |**Stores**| storing blobs and files in external filesystems and AWS S3 | **Filepath** | tracking files in an external repository
 |**Adapters**| user-defined attribute types | **Alter** | Altering table definitions with `alter`
-|**Index**| additional indexes | **Transactions** | defining atomic transactions
+|[**Indexes**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Indexes.ipynb)| speed up queries | **Transactions** | defining atomic transactions
 |**Log**| using `schema.log`
 
 ### 2. Work with Multiple Tables
