@@ -30,7 +30,7 @@ This tutorial assumes intermediate programming proficiency in Python.
 |[**UUIDs**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/UUID.ipynb)| work with `UUID` attributes | **Blobs** | storing complex data
 |[**Attach**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Attach-Simple.ipynb) | storing entire files as attachments | **Lookup** | work with lookup tables |
 |**Stores**| storing blobs and files in external filesystems and AWS S3 | **Filepath** | tracking files in an external repository |
-|[**Adapters**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/AdaptedTypes.ipynb) | storing complex objects |
+|[**Adapters**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Adapted-Types.ipynb) | storing complex objects | [**Adapters-2**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Adapted-Types-2.ipynb) | storing complex objects with predefined schemas |
 |[**Alter**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Alter.ipynb) | Altering table definitions with `alter`
 |[**Indexes**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Indexes.ipynb)| speed up queries | **Transactions** | defining atomic transactions
 |**Log**| using `schema.log`
