@@ -1,4 +1,4 @@
-(under active development - October 2019)
+(under active development - November 2019)
 
 # License 
 **Copyright, DataJoint Contributors, 2019**
@@ -28,9 +28,10 @@ This tutorial assumes intermediate programming proficiency in Python.
 |**Update**| when to use `update`
 |**Restrict**| Query operators `&` and `-`. Restricted `delete`. |**Proj** | Query operator `proj`
 |[**UUIDs**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/UUID.ipynb)| work with `UUID` attributes | **Blobs** | storing complex data
-|[**Attach**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Attach.ipynb)| storing files  | **Lookup** | work with lookup tables |
-|**Stores**| storing blobs and files in external filesystems and AWS S3 | **Filepath** | tracking files in an external repository
-|**Adapters**| user-defined attribute types | **Alter** | Altering table definitions with `alter`
+|[**Attach**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Attach-Simple.ipynb) | storing entire files as attachments | **Lookup** | work with lookup tables |
+|**Stores**| storing blobs and attachments in external stores | [**Filepath**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Filepaths.ipynb) | tracking files in an external repository |
+|[**Adapters**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Adapted-Types.ipynb) | storing complex objects | [**Adapters-2**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Adapted-Types-2.ipynb) | storing complex objects with predefined schemas |
+|[**Alter**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Alter.ipynb) | Altering table definitions with `alter`
 |[**Indexes**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Indexes.ipynb)| speed up queries | **Transactions** | defining atomic transactions
 |**Log**| using `schema.log`
 
@@ -69,5 +70,7 @@ This tutorial assumes intermediate programming proficiency in Python.
 |:--|:--|:--|:--|
 | **WebGUI** | web interfaces | **Slack** | Slack integration 
 
-### 7. Questions
-
+### 7. Questions and Examples
+|Link|Topic|Link|Topic|
+|:--|:--|:--|:--|
+|[**NWB-Adapter**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch7/NWB-Adapter.ipynb) | Work with NWB Files
