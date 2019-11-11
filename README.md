@@ -26,7 +26,7 @@ This tutorial assumes intermediate programming proficiency in Python.
 |[**Schema**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Schema.ipynb)| use `dj.schema` to create a new database schema or to connect to an existing one    | **Define** |  table class, simple attributes types, primary and secondary attributes, `describe` and `drop`.
 |**Insert**| `insert`, `insert1`, `delete`, and `delete_quick`|**Fetch**| `fetch`, `fetch1`, `head`, `tail`, `len`.
 |**Update**| when to use `update`
-|**Restrict**| Query operators `&` and `-`. Restricted `delete`. |**Proj** | Query operator `proj`
+|**Restrict**| Query operators `&` and `-`. Restricted `delete`. |[**Proj**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Projection.ipynb') | Query operator `proj`
 |[**UUIDs**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/UUID.ipynb)| work with `UUID` attributes | **Blobs** | storing complex data
 |[**Attach**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Attach-Simple.ipynb) | storing entire files as attachments | **Lookup** | work with lookup tables |
 |**Stores**| storing blobs and attachments in external stores | [**Filepath**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Filepaths.ipynb) | tracking files in an external repository |
