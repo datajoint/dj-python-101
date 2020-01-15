@@ -1,4 +1,4 @@
-(under active development - November 2019)
+(under active development - January 2020)
 
 # License 
 **Copyright, DataJoint Contributors, 2019**
