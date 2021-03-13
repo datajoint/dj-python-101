@@ -1,7 +1,7 @@
-(under active development - January 2020)
+(under active development - March 2021)
 
 # License 
-**Copyright, DataJoint Contributors, 2019**
+**Copyright, DataJoint Contributors, 2019-2021**
 
 The contents of this repository can be shared and adapted under the terms of the **Creative Commons Attribution-ShareAlike License Version 4.0** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -20,11 +20,15 @@ This tutorial assumes intermediate programming proficiency in Python.
 |:--|:--|:--|:--|
 | **Connect** | install datajoint, configure database connection, `dj.config`, authentication, change password, save configuration, secure connection | **Admin** | configure database server, create user accounts, user privileges
 
-### 1. Work with One Table
+### 1. Define a Table
 |Link|Topic|Link|Topic|
 |:--|:--|:--|:--|
 |[**Schema**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Schema.ipynb)| use `dj.schema` to create a new database schema or to connect to an existing one    | **Define** |  table class, simple attributes types, primary and secondary attributes, `describe` and `drop`.
 |**Insert**| `insert`, `insert1`, `delete`, and `delete_quick`|**Fetch**| `fetch`, `fetch1`, `head`, `tail`, `len`.
+
+### 2 Insert and Delete 
+|Link|Topic|Link|Topic|
+|:--|:--|:--|:--|
 |**Update**| when to use `update`
 |**Restrict**| Query operators `&` and `-`. Restricted `delete`. |[**Proj**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Projection.ipynb) | Query operator `proj`
 |[**UUIDs**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/UUID.ipynb)| work with `UUID` attributes | **Blobs** | storing complex data
@@ -35,7 +39,7 @@ This tutorial assumes intermediate programming proficiency in Python.
 |[**Indexes**](https://nbviewer.jupyter.org/github/datajoint/dj-python-101/blob/master/ch1/Indexes.ipynb)| speed up queries | **Transactions** | defining atomic transactions
 |**Log**| using `schema.log`
 
-### 2. Work with Multiple Tables
+### 2. Design a schema
 |Link|Topic|Link|Topic|
 |:--|:--|:--|:--|
 |**Modules**|  correspondence between schemas and modules | **Dependencies** |  primary and secondary dependencies, referential constraints, cascading deletes 
