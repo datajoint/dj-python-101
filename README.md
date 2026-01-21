@@ -1,3 +1,7 @@
+> ⚠️ **This repository is archived and no longer maintained.**
+> Superseded by datajoint-tutorials.
+> For current DataJoint development, see [datajoint-tutorials](https://github.com/datajoint/datajoint-tutorials).
+
 (under active development - March 2021)
 
 # License 
